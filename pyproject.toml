@@ -1,9 +1,16 @@
 [tool.poetry]
 name = "wellplate-image"
 version = "0.1.1"
-description = ""
+description = "A Python library for understanding of well-plate images."
 authors = ["Eugene Brevdo <ebrevdo@gmail.com>"]
 readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/ebrevdo/wellplate-image"
+keywords = ["wellplate-image", "image analysis", "96 well"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
