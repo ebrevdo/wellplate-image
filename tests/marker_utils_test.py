@@ -4,7 +4,7 @@ from absl.testing import absltest
 import cv2
 import numpy as np
 
-from wellplate import marker_utils
+from wellplate_image import marker_utils
 
 
 class MarkerUtilsTest(absltest.TestCase):

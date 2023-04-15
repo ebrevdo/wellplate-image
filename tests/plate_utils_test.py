@@ -4,7 +4,7 @@ from absl.testing import absltest
 import numpy as np
 from matplotlib import pyplot as plt
 
-from wellplate import plate_utils
+from wellplate_image import plate_utils
 
 _WIKIPEDIA_PLATE = (
   'tests/testdata/perspective_transformed_elisa_tmb_wikipedia.jpg')
