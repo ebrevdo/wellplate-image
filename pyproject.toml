@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wellplate"
+name = "wellplate-image"
 version = "0.1.0"
 description = ""
 authors = ["Eugene Brevdo <ebrevdo@gmail.com>"]
@@ -23,4 +23,4 @@ build-backend = "poetry.core.masonry.api"
 dev = ["pytype", "pytest"]
 
 [tool.pytype]
-inputs = ["wellplate"]
+inputs = ["wellplate-image"]
