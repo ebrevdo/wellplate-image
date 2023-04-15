@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "wellplate"
+version = "0.1.0"
+description = ""
+authors = ["Eugene Brevdo <ebrevdo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-python = "^4.7.0.72"
+scikit-learn = "^1.2.2"
+jaxtyping = "^0.2.14"
+imutils = "^0.5.4"
+absl-py = "^1.4.0"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.optional-dependencies]
+dev = ["pytype", "pytest"]
+
+[tool.pytype]
+inputs = ["wellplate"]
